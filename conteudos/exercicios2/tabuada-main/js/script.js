@@ -7,7 +7,7 @@ calcular.addEventListener("click", () => {
 
     tabuada.innerHTML = ""
 
-    if(Number(valor.value) < 1 || Number(valor.value) > 9){        
+    if(Number(valor.value) < 1 || Number(valor.value) > 10){        
 
         tabuada.innerHTML = "Insira um valor no intervalo de 1 a 9"
 
