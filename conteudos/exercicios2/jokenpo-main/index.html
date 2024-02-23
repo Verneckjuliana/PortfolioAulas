@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JOKENPÔ</h1>
+        <h3>Escolha seu movimento:</h3>
+        <div class="jogadas">
+            <img src="./img/pedra.png" alt="pedra">
+            <img src="./img/papel.png" alt="papel">
+            <img src="./img/tesoura.png" alt="tesoura">
+            <div class="escolha">
+                <form name="frmJokenpo">
+                    <input type="radio" name="grupo" id="pedra">PEDRA
+                    <input type="radio" name="grupo" id="papel">PAPEL
+                    <input type="radio" name="grupo" id="tesoura">TESOURA
+                    <p>
+                        <div class="botoes">
+                            <div ontouchstart="">
+                                <div class="button">
+                                  <a href="#" type="button" value="JOGAR" onclick="jogar()">JOGAR</a>
+                                </div>
+                              </div>
+                              <div ontouchstart="">
+                                <div class="button">
+                                  <a href="#" type="reset" value="RESET" onclick="resetar()">RESET</a>
+                                </div>
+                              </div>
+                        </div>
+
+                    <!-- <div ontouchstart="">
+                        <input class="button" type="button" value="JOGAR" onclick="jogar()">
+                        <input class="button" type="reset" value="RESET" onclick="resetar()">
+                    </div> -->
+                    
+                    </p>
+                </form>
+            </div>
+            <hr>
+        </div>
+        <h3>Movimento do computador:</h3>
+        <div class="jogadas">
+            <img src="./img/pc.png" alt="pc" id="pc">
+            <hr>
+        </div>
+        <h3 id="placar"></h3>
+    </div>
+<script src="./js/jokenpo.js"></script>
+</body>
+</html>
