@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <div class="display">
+            <input type="text" id="value1" placeholder="Valor 1">
+            <input type="text" id="value2" placeholder="Valor 2">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('soma')">+</button>
+            <button onclick="calculate('subtracao')">-</button>
+            <button onclick="calculate('divisao')">/</button>
+            <button onclick="calculate('multiplicacao')">x</button>
+            <button onclick="calculate('exponenciacao')">^</button>
+            <button onclick="calculate('raiz')">√</button>
+            <button onclick="calculate('percentual')">%</button>
+            <button onclick="calculate('fibonacci')">Fib</button>
+            <button onclick="calculate('fatorial')">Fat</button>
+        </div>
+        <div class="result">
+            <p>Resultado: <span id="result"></span></p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

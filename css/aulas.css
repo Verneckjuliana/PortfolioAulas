@@ -58,6 +58,18 @@ a{
     align-items: flex-end;
 }
 
+.card4{
+    width: 350px;
+    height: 350px;
+    background: url(../img/calculadora.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* subcards */
 .sub_card1{
     width: 350px;
     height: 350px;
@@ -117,6 +129,63 @@ a{
     display: flex;
     align-items: flex-end;
 }
+
+.sub_card7{
+    width: 350px;
+    height: 350px;
+    background: url(../img/quadrado.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card8{
+    width: 350px;
+    height: 350px;
+    background: url(../img/parouimpar.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card9{
+    width: 350px;
+    height: 350px;
+    background: url(../img/qualmaior.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card10{
+    width: 350px;
+    height: 350px;
+    background: url(../img/calculadora.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card11{
+    width: 350px;
+    height: 350px;
+    background: url(../img/form.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
 
 .card_content{
     position: relative;
