@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ffe2fe;
+    background-color: #ebe8e8;
 }
 
 h1{
@@ -73,6 +73,16 @@ a{
     height: 350px;
     background-color: #5c1a55;
     /* background: url(../img/calculadora.png) no-repeat top center/cover;  */
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card6{
+    width: 350px;
+    height: 350px;
+    background: url(../img/autentificacao.png) no-repeat top center/cover; 
     border-radius: 20px;
     overflow: hidden;
     display: flex;
@@ -185,6 +195,35 @@ a{
     width: 350px;
     height: 350px;
     background: url(../img/form.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+.sub_card12{
+    width: 350px;
+    height: 350px;
+    background: url(../img/autentificacao.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card13{
+    width: 350px;
+    height: 350px;
+    background: url(../img/autentificacao.png) no-repeat top center/cover; 
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_card14{
+    width: 350px;
+    height: 350px;
+    background: url(../img/autentificacao.png) no-repeat top center/cover; 
     border-radius: 20px;
     overflow: hidden;
     display: flex;
